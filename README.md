@@ -42,7 +42,7 @@ Flags:
   -e, --embed                              Embed documentation into existing markdown files if available, otherwise append to file.
       --footer string                      Additional content to inject at the end of each output file.
       --footer-file string                 File containing additional content to inject at the end of each output file.
-  -f, --format string                      Format to use for writing output data. Valid options: github (default), azure-devops, plain (default "github")
+  -f, --format string                      Format to use for writing output data. Valid options: github (default), bitbucket, azure-devops, plain (default "github")
       --header string                      Additional content to inject at the beginning of each output file.
       --header-file string                 File containing additional content to inject at the beginning of each output file.
   -h, --help                               help for gomarkdoc
