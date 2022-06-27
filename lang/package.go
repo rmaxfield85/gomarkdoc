@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/rmaxfield85/gomarkdoc/logger"
 )
 
 type (

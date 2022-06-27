@@ -1,4 +1,4 @@
-module github.com/princjef/gomarkdoc
+module github.com/rmaxfield85/gomarkdoc
 
 go 1.16
 

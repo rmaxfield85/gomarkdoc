@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/princjef/gomarkdoc/format/formatcore"
-	"github.com/princjef/gomarkdoc/lang"
+	"github.com/rmaxfield85/gomarkdoc/format/formatcore"
+	"github.com/rmaxfield85/gomarkdoc/lang"
 )
 
 // BitBucketFlavoredMarkdown provides a Format which is compatible with GitHub
