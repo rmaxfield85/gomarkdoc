@@ -62,7 +62,7 @@ type commandOptions struct {
 }
 
 // Flags populated by goreleaser
-var version = ""
+var version = "0.3.2-a"
 
 const configFilePrefix = ".gomarkdoc"
 
@@ -152,7 +152,7 @@ func buildCommand() *cobra.Command {
 		"format",
 		"f",
 		"github",
-		"Format to use for writing output data. Valid options: github (default), azure-devops, plain",
+		"Format to use for writing output data. Valid options: github (default), bitbucket, azure-devops, plain",
 	)
 	command.Flags().StringToStringVarP(
 		&opts.templateOverrides,
@@ -350,6 +350,8 @@ func resolveOverrides(opts commandOptions) ([]gomarkdoc.RendererOption, error) {
 
 	var f format.Format
 	switch opts.format {
+	case "bitbucket":
+		f = &format.BitBucketFlavoredMarkdown{}
 	case "github":
 		f = &format.GitHubFlavoredMarkdown{}
 	case "azure-devops":
