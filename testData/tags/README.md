@@ -10,17 +10,8 @@ Package tags contains code to demonstrate usage of build tags\.
 
 ## Index
 
-- [func Tagged() int](<#func-tagged>)
 - [func Untagged() int](<#func-untagged>)
 
-
-## func [Tagged](<https://github.com/rmaxfield85/gomarkdoc/blob/master/testData/tags/tagged.go#L7>)
-
-```go
-func Tagged() int
-```
-
-Tagged is only visible with tags\.
 
 ## func [Untagged](<https://github.com/rmaxfield85/gomarkdoc/blob/master/testData/tags/untagged.go#L5>)
 

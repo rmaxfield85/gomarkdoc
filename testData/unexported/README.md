@@ -12,7 +12,6 @@ Package unexported contains some simple code to exercise basic scenarios for doc
 
 - [type Num](<#type-num>)
   - [func AddNums(num1, num2 Num) Num](<#func-addnums>)
-  - [func addInternal(num1, num2 Num) Num](<#func-addinternal>)
   - [func (n Num) Add(num Num) Num](<#func-num-add>)
 
 
@@ -33,14 +32,6 @@ func AddNums(num1, num2 Num) Num
 ```
 
 AddNums adds two Nums together\.
-
-### func [addInternal](<https://github.com/rmaxfield85/gomarkdoc/blob/master/testData/unexported/main.go#L21>)
-
-```go
-func addInternal(num1, num2 Num) Num
-```
-
-addInternal is a private version of AddNums\.
 
 ### func \(Num\) [Add](<https://github.com/rmaxfield85/gomarkdoc/blob/master/testData/unexported/main.go#L11>)
 
